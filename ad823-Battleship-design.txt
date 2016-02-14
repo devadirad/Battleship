@@ -1,0 +1,12 @@
+NECESSARY INFORMATION FOR THE GAME:
+
+-Create int variables x1y1c, x1y2c, x1y3c, etc until 
+x10y10p and x10y10p (grid for player and computer)
+-int variables xstartac, xendac, ystartac, yendac,
+ xstartbs, ystartbs, etc (start and end coordinates for aircraft carrier, battleship, etc)
+
+-error conditions: user cannot enter numbers less
+ than 1 or greater than 10 for these coordinates, 
+or create diagonal ships, or choose 
+coordinates that exceed the length of the board or 
+exceeds the length of the specified ship.
