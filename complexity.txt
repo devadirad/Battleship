@@ -1,0 +1,46 @@
+EFFICIENCY ANALYSIS OF METHODS
+Aditi Devrajan
+
+INITBOARD() AI PLAYER
+
+1)Input Size:	 n = 10
+2)What to count: every iteration of the inner for loops (every array index that is defined as the '~' character)
+3)Best case:	 2n^2
+4)Worst Case:	 2n^2
+5)Big Oh:	 n^2 (quadratic)
+
+
+PLACESHIPS() AI PLAYER
+
+1)Input Size:	 5
+2)What to count: all integer comparisons
+3)Best case:	 12 + 18n + 12 + 18(n-1)..... = 18n(n-1)/2 + 12n
+4)Worst Case:	 no upper bound, the player can choose to run through the method again and again if they are not satisfied with the placement of their ships.
+5)Big Oh:	 n^2 (quadratic)
+
+
+FIRE() AI PLAYER
+
+1)Input Size:	2
+2)What to count: all computations
+3)Best case:	6
+4)Worst Case:	6
+5)Big Oh:	1 (constant)
+
+
+FIREUPON() HUMAN PLAYER
+
+1)Input Size:	1
+2)What to count: all operations
+3)Best case:	1
+4)Worst Case:	2
+5)Big Oh:	1 (constant)
+
+
+LOST() HUMAN PLAYER
+
+1)Input Size:	1
+2)What to count: all operations
+3)Best case:	1
+4)Worst Case:	1
+5)Big Oh:	1 (constant)
